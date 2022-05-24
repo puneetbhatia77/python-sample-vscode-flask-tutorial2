@@ -13,7 +13,7 @@ variables:
   dockerRegistryServiceConnection: '6df8dbb7-dc2a-45db-ab21-ba79a2fafe97'
   imageRepository: 'puneetbhatiapythonsamplevscodeflasktutorial'
   containerRegistry: 'mycontainerregistrypuneet.azurecr.io'
-  dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
+  dockerfilePath: '$(Build.SourcesDirectory)/app/Dockerfile'
   tag: '$(Build.BuildId)'
 
   # Agent VM image name
